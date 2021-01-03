@@ -1,5 +1,5 @@
 import base64
-print('    C   I   P   H   E   R   S    H    A    C   K')                                          >
+print('    C   I   P   H   E   R   S    H    A    C   K')
 
 print("""\
 CODED BY:
