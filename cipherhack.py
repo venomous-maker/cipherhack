@@ -1,12 +1,17 @@
-import base64
-print('    C   I   P   H   E   R   S    H    A    C   K')
+import base64,colorama
+from colorama import init,Fore
+init()
+GREEN = Fore.GREEN
+RED = Fore.RED
+BLUE = Fore.BLUE
+print(f'{RED}    C   I   P   H   E   R   S    H    A    C   K')
 
-print("""\
+print(f"""\
 CODED BY:
-  .___.     ..___ .___.___   .      ..___.   ..___..    .
-  |    \   / |   \|   |    |  \    / |   |\  ||   ||\  /|
-  |     \ /  |———/|———|———/    \  /  |———| \ ||   || \/ |
-  |____  |   |___/|___|    \    \/   |___|  \||___||    |.
+{RED}  .___.     ..___ .___.___   .      ..___.   ..___..    .
+{GREEN}  |    \   / |   \|   |    |  \    / |   |\  ||   ||\  /|
+{BLUE}  |     \ /  |———/|———|———/    \  /  |———| \ ||   || \/ |
+{RED} |____  |   |___/|___|    \    \/   |___|  \||___||    |.
          @cybervenomous on telegram
          https://darktelegramvenomous my channel
 """"")
